@@ -1,0 +1,56 @@
+src/lib/assistant-prefill.ts
+  s_7cee16da1a764c::t_de98aa75f08eb3 1-71
+tests/assistant-prefill.test.ts
+  s_7cee16da1a764c::t_4fff1d79d95db9 89-90
+  s_7cee16da1a764c::t_a7f286652c921f 1-88,91-93
+tests/create-messages-anthropic-beta.test.ts
+  s_7cee16da1a764c::t_9c5fd34df01c21 109-127
+tests/messages-handler.test.ts
+  s_7cee16da1a764c::t_873b94ae7304af 16,858-898,964-1001,1004-1008
+  s_7cee16da1a764c::t_9c5fd34df01c21 46,899-904
+  s_7cee16da1a764c::t_4fff1d79d95db9 1002-1003
+  s_7cee16da1a764c::t_a7f286652c921f 14,122,905-963
+src/services/copilot/create-chat-completions.ts
+  s_7cee16da1a764c::t_58934af0ffca08 31-32,57
+tests/chat-completions-prefill.test.ts
+  s_7cee16da1a764c::t_7007365d3c477e 1-10,12-76,80-86
+  s_7cee16da1a764c::t_83a7f38d656c48 11,77-79
+tests/messages-api-flows.test.ts
+  s_7cee16da1a764c::t_d1f8ee8bc2d363 31
+  s_7cee16da1a764c::t_9c5fd34df01c21 68,926-946
+  s_7cee16da1a764c::t_1d60d2c8485489 947-948
+src/routes/chat-completions/handler.ts
+  s_7cee16da1a764c::t_58934af0ffca08 88-89,98,105
+  s_7cee16da1a764c::t_a7f286652c921f 6-9,90-97,99-104,106
+src/routes/messages/handler.ts
+  s_7cee16da1a764c::t_58934af0ffca08 200-203,218,235,251,260-262
+  s_7cee16da1a764c::t_ef8d671fb0e345 12,39,256-257,264-265
+  s_7cee16da1a764c::t_a7f286652c921f 258-259
+  s_7cee16da1a764c::t_e38e47f9a7b92e 204-217,219-234,236-238,240
+src/routes/messages/preprocess.ts
+  s_7cee16da1a764c::t_ef8d671fb0e345 913-941
+  s_7cee16da1a764c::t_a7f286652c921f 3
+src/services/copilot/create-messages.ts
+  s_7cee16da1a764c::t_d1f8ee8bc2d363 106
+  s_7cee16da1a764c::t_58934af0ffca08 78-79
+tests/create-chat-completions.test.ts
+  s_7cee16da1a764c::t_9c5fd34df01c21 72-83
+src/routes/messages/api-flows.ts
+  s_7cee16da1a764c::t_58934af0ffca08 89-90,118,142,235-240,267-269,388,410
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e279f22237f7cbc5359d533050a3768a5d0fe291",
+  "prompts": {},
+  "sessions": {
+    "s_7cee16da1a764c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "10a13a00-3dd2-47d7-b2c5-204ef39efbec",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Edward Coleridge Smith <edcoleridgesmith@gmail.com>"
+    }
+  }
+}
